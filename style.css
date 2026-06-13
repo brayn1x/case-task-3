@@ -1,3 +1,9 @@
+/* 
+  Основные стили страницы:
+  — центрирование контента
+  — фон
+  — базовый шрифт
+*/
 body {
   font-family: Arial, sans-serif;
   background: #f0f0f0;
@@ -7,6 +13,13 @@ body {
   height: 100vh;
 }
 
+/* 
+  Контейнер слайдера:
+  — фиксированная ширина
+  — тень
+  — скругление
+  — белый фон
+*/
 .slider {
   width: 500px;
   padding: 20px;
@@ -16,6 +29,12 @@ body {
   text-align: center;
 }
 
+/* 
+  Изображение:
+  — растягивается по ширине
+  — сохраняет пропорции
+  — рамка и скругление
+*/
 .slider img {
   width: 100%;
   height: auto;
@@ -23,10 +42,17 @@ body {
   border: 3px solid #ddd;
 }
 
+/* Отступ сверху для блока кнопок */
 .controls {
   margin-top: 15px;
 }
 
+/* 
+  Стили кнопок:
+  — цвет
+  — скругление
+  — плавное наведение
+*/
 .controls button {
   padding: 10px 20px;
   margin: 0 10px;
@@ -43,6 +69,7 @@ body {
   background: #357ab8;
 }
 
+/* Счётчик текущего изображения */
 #counter {
   margin-top: 10px;
   font-size: 18px;
